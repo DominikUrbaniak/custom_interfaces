@@ -1,0 +1,6 @@
+int32 objid
+int64 computation_ms
+string network
+int32 n_freshness_samples
+---
+bool success

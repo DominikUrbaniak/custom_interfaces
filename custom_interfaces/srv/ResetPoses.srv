@@ -1,0 +1,5 @@
+geometry_msgs/Pose pose_cube
+geometry_msgs/Pose pose_eef
+float32 pose_gripper
+---
+bool success
