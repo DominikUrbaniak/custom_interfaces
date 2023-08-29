@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PoseSensing.msg"
   "msg/ImageStampId.msg"
   "msg/PoseCommunication.msg"
+  "msg/Sync.msg"
   "srv/Urik.srv"
   "srv/ObjPose.srv"
   "srv/RobConf.srv"
