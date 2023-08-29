@@ -8,3 +8,5 @@ float32 eef_y
 float32 eef_yaw
 int64 time_stamp
 float32 manipulability_index
+int64 time_since_last_req_ms
+bool timeout_triggered

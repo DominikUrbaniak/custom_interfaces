@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PoseArray.msg"
   "msg/PoseSensing.msg"
   "msg/ImageStampId.msg"
+  "msg/PoseCommunication.msg"
   "srv/Urik.srv"
   "srv/ObjPose.srv"
   "srv/RobConf.srv"
@@ -38,6 +39,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ResetPoses.srv"
   "srv/TimeMeasurement.srv"
   "srv/ImageStampIdSrv.srv"
+  "srv/PoseDetection.srv"
+  "srv/String.srv"
 
   DEPENDENCIES geometry_msgs sensor_msgs
 
